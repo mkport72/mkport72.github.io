@@ -11,15 +11,15 @@ body {
 
 .btn {
   padding: .5rem 1.5rem;
-  border: 1px solid #78b142;
+  border: 1px solid #38513b;
   border-radius: 0;
-  color: #78b142;
+  color: #38513b;
   text-transform: uppercase;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s; }
   .btn:hover {
-    background-color: #78b142;
+    background-color: #38513b;
     color: #232323; }
 
 h2 {
@@ -27,7 +27,7 @@ h2 {
   font-weight: 700; }
 
 .menu-responsive {
-  background-color: #78b142;
+  background-color: #38513b;
   padding: 2rem 0; }
   .menu-responsive ul {
     margin: 0;
@@ -56,7 +56,7 @@ h2 {
     -o-transition: all .3s;
     transition: all .3s; }
     .header__top--responsive ul li .menu-bars:hover, .header__top--responsive ul li .menu-bars:active {
-      color: #78b142; }
+      color: #38513b; }
 
 header {
   height: 100vh;
@@ -83,7 +83,7 @@ header {
   align-items: flex-start; }
 
 .header__top-brand {
-  color: #78b142; }
+  color: #38513b; }
   .header__top-brand .bold {
     text-transform: uppercase; }
   .header__top-brand h1 {
@@ -132,6 +132,10 @@ margin-top: 10rem;}
         font-size: 1.1rem;
         line-height: 1.8rem;
         font-weight: 200; }
+  .header__content p.mk_txt2 {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 200; }
   .header__content .btn {
     margin-top: 3rem; }
 
@@ -215,7 +219,7 @@ margin-top: 10rem;}
     font-family: 'Noto Sans KR';
     font-size: 1.25rem;
     color: #232323;
-    font-weight: 400;
+    font-weight: 200;
     margin-top: 1.8rem;
     margin-bottom: 1.5rem; }
   #about p {
@@ -250,7 +254,7 @@ margin-top: 10rem;}
       -o-transition: all 0.3s;
       transition: all 0.3s; }
       #about p a:hover {
-        color: #78b142; }
+        color: #38513b; }
   #about p + p {
     margin-bottom: 2rem; }
 
@@ -261,7 +265,7 @@ margin-top: 10rem;}
     #about h2 {
       font-size: 2.2rem; }
     #about .lead {
-      font-weight: 400;
+      font-weight: 200;
       font-size: 0.8rem;
       margin-bottom: 1.5rem; }
     #about p {
@@ -273,7 +277,7 @@ margin-top: 10rem;}
     #about h2 {
       font-size: 2.4rem; }
     #about .lead {
-      font-weight: 400;
+      font-weight: 200;
       font-size: 1rem;
       margin-bottom: 1.5rem; }
     #about p {
@@ -285,7 +289,7 @@ margin-top: 10rem;}
     #about h2 {
       font-size: 2.6rem; }
     #about .lead {
-      font-weight: 400;
+      font-weight: 200;
       font-size: 1.2rem;
       margin-bottom: 1.5rem; }
     #about p {
@@ -294,7 +298,7 @@ margin-top: 10rem;}
       margin-bottom: 2.2rem; } }
 
 #partner {
-  background-color: #78b142;
+  background-color: #38513b;
   padding: 5rem 0; }
   #partner h2 {
     color: #fff;
@@ -303,7 +307,7 @@ margin-top: 10rem;}
       font-family: 'Noto Sans KR';
       font-size: 1.25rem;
       color: #FFF;
-      font-weight: 400;
+      font-weight: 200;
       margin-top: 1.8rem;
       margin-bottom: 1.5rem;
     text-align: center; }
@@ -346,7 +350,7 @@ margin-top: 10rem;}
     #partner h2 {
       font-size: 2.2rem; }
     #partner .lead {
-      font-weight: 400;
+      font-weight: 200;
       font-size: 0.8rem;
       margin-bottom: 1.5rem; }
     #partner p {
@@ -358,7 +362,7 @@ margin-top: 10rem;}
     #partner h2 {
       font-size: 2.4rem; }
     #partner .lead {
-      font-weight: 400;
+      font-weight: 200;
       font-size: 1rem;
       margin-bottom: 1.5rem; }
     #partner p {
@@ -370,7 +374,7 @@ margin-top: 10rem;}
     #partner h2 {
       font-size: 2.6rem; }
     #partner .lead {
-      font-weight: 400;
+      font-weight: 200;
       font-size: 1.2rem;
       margin-bottom: 1.5rem; }
     #partner p {
@@ -389,7 +393,7 @@ margin-top: 10rem;}
     font-family: 'Noto Sans KR';
     font-size: 1.25rem;
     color: #232323;
-    font-weight: 400;
+    font-weight: 200;
     margin-top: 1.8rem;
     margin-bottom: 1.5rem;
   text-align: center; }
@@ -409,7 +413,7 @@ margin-top: 10rem;}
       right: .75rem;
       bottom: .75rem;
       left: .75rem;
-      background-color: #78b142;
+      background-color: #38513b;
       padding-top: 4rem;
       opacity: 0;
       -webkit-transition: all .5s;
@@ -434,17 +438,21 @@ margin-top: 10rem;}
 
 #contact {
   width:100%;
-  padding: 5rem 0;
-  background-color: #78b142;
+  padding: 3rem 0;
+  background-color: #38513b;c
   text-align: center; }
+  #contact h2 {
+    color: #fff;
+    text-align: center; }
   #contact  .contact-icons {
     text-align: center;
-    font-size: 30px;
-    letter-spacing: 5px;
+    font-size: 16px;
     margin-top: 10px;
     margin-bottom: 10px;
-    min-width: 20%;
+    min-width: 100%;
     display: inline-block;
+    color:#ffffff;
+    text-align: center;
   }
   #contact .contact-icons .lead {
     margin-bottom: -.25rem;
@@ -463,15 +471,15 @@ margin-top: 10rem;}
   #contact .btn {
     margin-top: 2.5rem;
     border: 2px solid #232323;
-    color: #232323; }
+    color: #ffffff; }
     #contact .btn:hover {
       background-color: #232323;
-      color: #78b142; }
+      color: #ffffff; }
   #contact .contact__social {
     margin-top: 3rem;
     font-size: 2rem; }
     #contact .contact__social a {
-      color: #232323;
+      color: #ffffff;
       -webkit-transition: all .3s;
       -o-transition: all .3s;
       transition: all .3s; }
@@ -494,7 +502,7 @@ margin-top: 10rem;}
       -o-transition: all .3s;
       transition: all .3s; }
       #footer p a:hover {
-        color: #78b142; }
+        color: #38513b }
     #footer p .fa-heart {
       color: red; }
 
