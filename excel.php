@@ -21,7 +21,8 @@
 	
     require_once "../PHPExcel-1.8/Classes/PHPExcel/IOFactory.php"; // IOFactory.php을 불러옴.
     
-    $company_id = $_POST['id'];
+    //$company_id = $_POST['id'];
+    $company_id = $_GET['id'];
     $company_id = trim($company_id, "-");
     $company_id = str_replace("-", "", $company_id);
 
